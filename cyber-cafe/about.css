@@ -1,0 +1,40 @@
+
+/* descripton and form */
+.description-form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.description > p:nth-child(2) {
+    width: 50vh;
+}
+
+/* hours and locations */
+.hours-locations {
+    display: flex;
+}
+
+.hours {
+    margin-right: 50px;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.name,
+.email {
+    height: 25px;
+    width: 60vh;
+    margin-bottom: 20px;
+}
+
+.request {
+    height: 220px;
+    width: 60vh;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Cyber Cafe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cyber Cafe Website" />
+    <!-- <link rel="icon" href="https://glitch.com/favicon.ico" /> -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="./standard.css" type="text/css" />
+    <link rel="stylesheet" href="./catering.css" type="text/css" />
+
+    <!-- javascript -->
+    <script src="./catering.js" defer></script>
+  </head>
+
+  <body>
+      <!-- container -->
+      <div class = "container">
+
+        <div class = "header">
+          <!-- header -->
+          <img src="./header.jpg" id="header-img" alt="display of bakery items"/>
+          <!-- nav bar -->
+          <div class = "navigation">
+            <a href="./index.html">home</a>
+            <a href="./menu.html">menu</a>
+            <a href="./pictures.html">pictures</a>
+            <a class="active" href="./catering.html">catering</a>
+            <a href="./events.html">events</a>
+            <a href="./about.html">about</a>
+          </div>
+        </div>
+
+        <!-- description and form -->
+        <div class = "description-form">
+            <!-- description -->
+            <div class = "description">
+                <h1>Need an Event Catered?</h1>
+                <p>Fill out the form to the right to make a request! We do birthdays, weddings, and much more!</p>
+                <img src="./catering.jpg" id="catering-img" alt="bakers getting catering ready"/>
+            </div>
+            <!-- form -->
+            <div class = "form">
+                <h2>Catering Form</h2>
+                <form>
+                    <input type="text" class = "name" placeholder="Name">
+                    <input type="email" class = "email" placeholder="Email">
+                    <textarea class = "request" placeholder="Short description of what you need..."></textarea>
+                    <input type="submit" class = "submit">
+                </form>
+            </div>
+        </div>
+
+      </div>
+  </body>
